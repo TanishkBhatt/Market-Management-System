@@ -125,7 +125,7 @@
         "COST": 180,
         "PRICE": 220,
         "DISCOUNT": 5,
-        "STOCKS": 49,
+        "STOCKS": 48,
         "CATEGORY": "BAKERY"
     },
     "COOKIES": {
@@ -133,7 +133,7 @@
         "COST": 65,
         "PRICE": 80,
         "DISCOUNT": 4,
-        "STOCKS": 129,
+        "STOCKS": 124,
         "CATEGORY": "BAKERY"
     },
     "CHIPS": {
@@ -141,7 +141,7 @@
         "COST": 18,
         "PRICE": 25,
         "DISCOUNT": 5,
-        "STOCKS": 123,
+        "STOCKS": 118,
         "CATEGORY": "SNACKS"
     },
     "BISCUITS": {
@@ -181,7 +181,7 @@
         "COST": 30,
         "PRICE": 40,
         "DISCOUNT": 5,
-        "STOCKS": 87,
+        "STOCKS": 82,
         "CATEGORY": "BEVERAGES"
     },
     "FRUIT JUICE": {
