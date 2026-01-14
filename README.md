@@ -4,7 +4,6 @@ A `Python-Based Backend Only Market Management System` is designed to simulate a
 
 The Project also includes a dedicated data analysis notebook for evaluating financial performance, inventory health, customer influence, and sales trends.
 
-![image](dataAnalysis.png)
 ---
 
 ## Table of Contents
