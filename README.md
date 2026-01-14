@@ -131,7 +131,7 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
 
 2. Install required dependencies:
     ```bash
-    pip install pandas matplotlib qrcode
+    pip install pandas matplotlib qrcode[pil]
 
 3. Run the main application:
     ```bash
