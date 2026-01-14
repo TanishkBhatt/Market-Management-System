@@ -159,8 +159,9 @@ Developed by `Tanishk Bhatt`, a Student and a Programmer of India, as a real-wor
 
 ## Links
 
-- GitHub : https://github.com/TanishkBhatt
-- LeetCode : https://leetcode.com/u/TanishkBhatt
-- YouTube : https://www.youtube.com/@TanishkBhatt-x6w
+- Portfolio : https://tanishkbhatt.github.io/Portfolio/
+- GitHub : https://github.com/TanishkBhatt/
+- LeetCode : https://leetcode.com/u/TanishkBhatt/
+- YouTube : https://www.youtube.com/@TanishkBhatt-x6w/
 
 ---
