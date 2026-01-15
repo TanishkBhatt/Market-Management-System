@@ -108,6 +108,7 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
     │ └── BILL-<custumer_id>.txt
     │
     └── README.md
+    |__ requirements.txt
 
 ---
 
