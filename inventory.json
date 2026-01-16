@@ -5,7 +5,7 @@
         "COST": 35,
         "PRICE": 40,
         "DISCOUNT": 5,
-        "STOCKS": 83,
+        "STOCKS": 79,
         "CATEGORY": "GROCERY"
     },
     "COFFEE": {
@@ -13,7 +13,7 @@
         "COST": 45,
         "PRICE": 60,
         "DISCOUNT": 5,
-        "STOCKS": 78,
+        "STOCKS": 76,
         "CATEGORY": "GROCERY"
     },
     "SUGAR": {
@@ -21,7 +21,7 @@
         "COST": 38,
         "PRICE": 45,
         "DISCOUNT": 2,
-        "STOCKS": 88,
+        "STOCKS": 83,
         "CATEGORY": "GROCERY"
     },
     "RICE": {
@@ -69,7 +69,7 @@
         "COST": 48,
         "PRICE": 55,
         "DISCOUNT": 2,
-        "STOCKS": 130,
+        "STOCKS": 60,
         "CATEGORY": "DAIRY"
     },
     "CURD": {
@@ -125,7 +125,7 @@
         "COST": 180,
         "PRICE": 220,
         "DISCOUNT": 5,
-        "STOCKS": 48,
+        "STOCKS": 38,
         "CATEGORY": "BAKERY"
     },
     "COOKIES": {
@@ -133,7 +133,7 @@
         "COST": 65,
         "PRICE": 80,
         "DISCOUNT": 4,
-        "STOCKS": 124,
+        "STOCKS": 69,
         "CATEGORY": "BAKERY"
     },
     "CHIPS": {
@@ -141,7 +141,7 @@
         "COST": 18,
         "PRICE": 25,
         "DISCOUNT": 5,
-        "STOCKS": 118,
+        "STOCKS": 63,
         "CATEGORY": "SNACKS"
     },
     "BISCUITS": {
@@ -157,7 +157,7 @@
         "COST": 35,
         "PRICE": 150,
         "DISCOUNT": 6,
-        "STOCKS": 0,
+        "STOCKS": 70,
         "CATEGORY": "SNACKS"
     },
     "NAMKEEN": {
@@ -165,7 +165,7 @@
         "COST": 45,
         "PRICE": 60,
         "DISCOUNT": 4,
-        "STOCKS": 160,
+        "STOCKS": 155,
         "CATEGORY": "SNACKS"
     },
     "INSTANT NOODLES": {
