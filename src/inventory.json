@@ -1,0 +1,211 @@
+{
+    "*": 2.5,
+    "TEA": {
+        "UNIT": "PACK",
+        "COST": 35,
+        "PRICE": 40,
+        "DISCOUNT": 5,
+        "STOCKS": 75,
+        "CATEGORY": "GROCERY"
+    },
+    "COFFEE": {
+        "UNIT": "PACK",
+        "COST": 45,
+        "PRICE": 60,
+        "DISCOUNT": 5,
+        "STOCKS": 76,
+        "CATEGORY": "GROCERY"
+    },
+    "SUGAR": {
+        "UNIT": "KG",
+        "COST": 38,
+        "PRICE": 45,
+        "DISCOUNT": 2,
+        "STOCKS": 81,
+        "CATEGORY": "GROCERY"
+    },
+    "RICE": {
+        "UNIT": "KG",
+        "COST": 48,
+        "PRICE": 60,
+        "DISCOUNT": 3,
+        "STOCKS": 125,
+        "CATEGORY": "GROCERY"
+    },
+    "WHEAT FLOUR": {
+        "UNIT": "KG",
+        "COST": 42,
+        "PRICE": 55,
+        "DISCOUNT": 3,
+        "STOCKS": 150,
+        "CATEGORY": "GROCERY"
+    },
+    "COOKING OIL": {
+        "UNIT": "LITRE",
+        "COST": 115,
+        "PRICE": 135,
+        "DISCOUNT": 4,
+        "STOCKS": 75,
+        "CATEGORY": "GROCERY"
+    },
+    "SALT": {
+        "UNIT": "KG",
+        "COST": 15,
+        "PRICE": 20,
+        "DISCOUNT": 0,
+        "STOCKS": 90,
+        "CATEGORY": "GROCERY"
+    },
+    "SPICES MIX": {
+        "UNIT": "PACK",
+        "COST": 55,
+        "PRICE": 70,
+        "DISCOUNT": 6,
+        "STOCKS": 91,
+        "CATEGORY": "GROCERY"
+    },
+    "MILK": {
+        "UNIT": "LITRE",
+        "COST": 48,
+        "PRICE": 55,
+        "DISCOUNT": 2,
+        "STOCKS": 45,
+        "CATEGORY": "DAIRY"
+    },
+    "CURD": {
+        "UNIT": "PACK",
+        "COST": 30,
+        "PRICE": 38,
+        "DISCOUNT": 2,
+        "STOCKS": 73,
+        "CATEGORY": "DAIRY"
+    },
+    "BUTTER": {
+        "UNIT": "PACK",
+        "COST": 95,
+        "PRICE": 115,
+        "DISCOUNT": 4,
+        "STOCKS": 62,
+        "CATEGORY": "DAIRY"
+    },
+    "CHEESE": {
+        "UNIT": "PACK",
+        "COST": 110,
+        "PRICE": 135,
+        "DISCOUNT": 4,
+        "STOCKS": 64,
+        "CATEGORY": "DAIRY"
+    },
+    "PANEER": {
+        "UNIT": "PACK",
+        "COST": 90,
+        "PRICE": 110,
+        "DISCOUNT": 3,
+        "STOCKS": 112,
+        "CATEGORY": "DAIRY"
+    },
+    "BREAD": {
+        "UNIT": "PACK",
+        "COST": 28,
+        "PRICE": 35,
+        "DISCOUNT": 0,
+        "STOCKS": 86,
+        "CATEGORY": "BAKERY"
+    },
+    "BUNS": {
+        "UNIT": "PACK",
+        "COST": 25,
+        "PRICE": 32,
+        "DISCOUNT": 0,
+        "STOCKS": 46,
+        "CATEGORY": "BAKERY"
+    },
+    "CAKE": {
+        "UNIT": "PACK",
+        "COST": 180,
+        "PRICE": 220,
+        "DISCOUNT": 5,
+        "STOCKS": 33,
+        "CATEGORY": "BAKERY"
+    },
+    "COOKIES": {
+        "UNIT": "PACK",
+        "COST": 65,
+        "PRICE": 80,
+        "DISCOUNT": 4,
+        "STOCKS": 57,
+        "CATEGORY": "BAKERY"
+    },
+    "CHIPS": {
+        "UNIT": "PACK",
+        "COST": 18,
+        "PRICE": 25,
+        "DISCOUNT": 5,
+        "STOCKS": 63,
+        "CATEGORY": "SNACKS"
+    },
+    "BISCUITS": {
+        "UNIT": "PACK",
+        "COST": 22,
+        "PRICE": 30,
+        "DISCOUNT": 3,
+        "STOCKS": 110,
+        "CATEGORY": "SNACKS"
+    },
+    "CHOCOLATE": {
+        "UNIT": "PACK",
+        "COST": 35,
+        "PRICE": 150,
+        "DISCOUNT": 6,
+        "STOCKS": 70,
+        "CATEGORY": "SNACKS"
+    },
+    "NAMKEEN": {
+        "UNIT": "PACK",
+        "COST": 45,
+        "PRICE": 60,
+        "DISCOUNT": 4,
+        "STOCKS": 155,
+        "CATEGORY": "SNACKS"
+    },
+    "INSTANT NOODLES": {
+        "UNIT": "PACK",
+        "COST": 14,
+        "PRICE": 20,
+        "DISCOUNT": 5,
+        "STOCKS": 123,
+        "CATEGORY": "SNACKS"
+    },
+    "SOFT DRINK": {
+        "UNIT": "BOTTLE",
+        "COST": 30,
+        "PRICE": 40,
+        "DISCOUNT": 5,
+        "STOCKS": 82,
+        "CATEGORY": "BEVERAGES"
+    },
+    "FRUIT JUICE": {
+        "UNIT": "PACK",
+        "COST": 55,
+        "PRICE": 70,
+        "DISCOUNT": 4,
+        "STOCKS": 51,
+        "CATEGORY": "BEVERAGES"
+    },
+    "ENERGY DRINK": {
+        "UNIT": "CAN",
+        "COST": 75,
+        "PRICE": 95,
+        "DISCOUNT": 6,
+        "STOCKS": 54,
+        "CATEGORY": "BEVERAGES"
+    },
+    "MINERAL WATER": {
+        "UNIT": "BOTTLE",
+        "COST": 15,
+        "PRICE": 20,
+        "DISCOUNT": 0,
+        "STOCKS": 77,
+        "CATEGORY": "BEVERAGES"
+    }
+}
