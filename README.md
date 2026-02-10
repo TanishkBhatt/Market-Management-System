@@ -118,6 +118,8 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
     - `csv`
     - `datetime`
     - `random`
+    - `os`
+    - `sys`
 - Third-party Libraries:
     - `pandas`
     - `matplotlib`
