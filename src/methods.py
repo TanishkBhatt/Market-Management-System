@@ -5,7 +5,6 @@ import os
 import pandas as pd
 from datetime import datetime
 import random
-import qrcode
 
 def loadData(filepath: str) -> dict:
     """Allows the system load data from the inventory"""
@@ -212,32 +211,16 @@ def finalize_and_pay(inventory, custumer_cart, custumer_id, custumer_name, custu
 
     print(  "\n---------------------------------------------------------------------------------------------"
             f"\nYOUR FINAL BILL AFTER APPLYING "
-            f"{inventory.get("*", 0)}% SEASONAL DISCOUNT IS INR {final_bill:.2f}"
+            f"{inventory.get("*", 0)}% SEASONAL DISCOUNT IS INR {final_bill:.2f}\n"
+            f"YOU MAY PAY THE BILL AMOUNT NOW!"
             "\n---------------------------------------------------------------------------------------------\n")
 
     # Demo Payment Scenerio
-    os.makedirs("QRCodes", exist_ok=True)
     os.makedirs("Payment-Bills", exist_ok=True)
-
-    upi_id = "demo@upi" 
-    name = "Market Management System"
-    upi_link = (
-            f"upi://pay?"
-            f"pa={upi_id}&"
-            f"pn={name}&"
-            f"am={final_bill}&"
-            f"cu=INR&"
-            f"tn=Order%20{custumer_id}"
-        )
-    qr = qrcode.make(upi_link)
-    qr.save(f"QRCodes/PAY-{custumer_id}.png")
-
-    print("YOUR PAYMENT QR-CODE HAS BEEN GENERATED!")
-    print(f"YOU MAY SCAN THE QR-CODE AT \"QRCodes/PAY-{custumer_id}.png\" FOR PAYMENT!")
 
     # Imporing Data to salesDB.csv
     while True :
-        payment = input("\nIS THE PAYMENT SUCCESSFUL ? (Y/N) : ").upper().strip()
+        payment = input("IS THE PAYMENT SUCCESSFUL ? (Y/N) : ").upper().strip()
         if payment == "Y":
             with open('DataBase/custumerDB.csv', 'a', newline='') as file:
                     writer = csv.writer(file)
@@ -258,12 +241,12 @@ def finalize_and_pay(inventory, custumer_cart, custumer_id, custumer_name, custu
                                 details["TIME"]
                         ])
                     break
-        if payment == "Q":
+        if payment == "C":
             print("PAYMENT CANCELLED. NO DATA WRITTEN!")
             return
         
         if payment == "N":
-            print("PAYMENT NOT CONFIRMED. TRY AGAIN OR PRESS Q TO CANCEL!")
+            print("PAYMENT NOT CONFIRMED. TRY AGAIN OR PRESS C TO CANCEL!")
 
     # Updating inventory.json
     for item, details in custumer_cart.items():
@@ -300,7 +283,7 @@ Customer ID     : {custumer_id}
 Billing Time    : {billing_time}
 
 ----------------------------------------------------------------------------------
-Product            Order-ID        Qty    Price    Discount    Bill
+Product            Order-ID        Qty    Price     Discount          Bill
 ----------------------------------------------------------------------------------
 {cart_details}
 ----------------------------------------------------------------------------------

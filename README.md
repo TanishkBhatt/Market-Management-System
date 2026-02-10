@@ -52,7 +52,6 @@ The Project also includes a dedicated data analysis notebook for evaluating fina
 
 ### Billing and Payments
 - Final bill generation with discount application
-- Demo QR code generation for UPI-based payments
 - Automatic bill text file creation
 - Bills stored locally for future reference
 
@@ -104,7 +103,6 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
     │ ├── salesDB.csv
     │ └── feedbackDB.csv
     │
-    ├── QRCodes/
     ├── Payment Bills/
     │
     ├── README.md
@@ -114,7 +112,7 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
 
 ## Technical Stack Used
 
-- Programming Langusge: `Python`
+- Programming Langusge: `python`
 - Standard Libraries: 
     - `json`
     - `csv`
@@ -123,8 +121,7 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
 - Third-party Libraries:
     - `pandas`
     - `matplotlib`
-    - `qrcode`
-- For Analysis: `Jupyter Notebook`
+- For Analysis: `notebook`
 
 ---
 

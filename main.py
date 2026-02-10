@@ -14,7 +14,7 @@ def main() -> None:
     custumer_cart = {}                           # Customer Cart
 
     custumer_name, custumer_age, custumer_gender = custumer_details()
-    print(f'YOUR CUSTUMER ID : {custumer_id}')   # Customer ID
+    print(f'\nYOUR CUSTUMER ID : {custumer_id}\n')   # Customer ID
 
     print(
         "COMMANDS :\n"
@@ -52,8 +52,10 @@ def main() -> None:
 
 try:
     main()
+    
 except Exception as e:
     print(f"SOMETHING WENT WRONG! {e}")
     sys.exit(1)
+
 finally:
     print("\n---------------------------THANKS FOR VISING US! VISIT AGAIN LATER!---------------------------\n")
