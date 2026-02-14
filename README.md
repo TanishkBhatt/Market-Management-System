@@ -90,23 +90,19 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
 ## Project Structure
 
     Market-Management-System/
-    │
-    ├── main.py
-    ├── analysis.ipynb
-    │
     ├── src/
     │ ├── inventory.json
     │ ├── methods.py
     |
+    │── main/
+    | ├── main.py
+    | ├── analysis.ipynb
+    │
     ├── DataBase/
+    | ├── Payment Bills/
     │ ├── custumerDB.csv
     │ ├── salesDB.csv
     │ └── feedbackDB.csv
-    │
-    ├── Payment Bills/
-    │
-    ├── README.md
-    ├── requirements.txt
 
 ---
 

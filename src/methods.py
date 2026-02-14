@@ -216,7 +216,7 @@ def finalize_and_pay(inventory, custumer_cart, custumer_id, custumer_name, custu
             "\n---------------------------------------------------------------------------------------------\n")
 
     # Demo Payment Scenerio
-    os.makedirs("Payment-Bills", exist_ok=True)
+    os.makedirs("DataBase/Payment-Bills", exist_ok=True)
 
     # Imporing Data to salesDB.csv
     while True :
@@ -298,10 +298,10 @@ TOTAL AMOUNT PAYABLE               : INR {final_bill:.2f}
 ----------------------------------------------------------------------------------
 """
 
-    with open(f"Payment-Bills/BILL-{custumer_id}.txt", "w") as f:
+    with open(f"DataBase/Payment-Bills/BILL-{custumer_id}.txt", "w") as f:
         f.write(bill_template)
 
-    print(f"\nYOUR BILL HAS BEEN GENERATED SUCCESFULLY!\nYOU MAY CHECK AT \"Payment-Bills/BILL-{custumer_id}.txt\"")
+    print(f"\nYOUR BILL HAS BEEN GENERATED SUCCESFULLY!\nYOU MAY CHECK AT \"DataBase/Payment-Bills/BILL-{custumer_id}.txt\"")
 
     # Feedback Section
     try :
