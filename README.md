@@ -126,21 +126,30 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
 ## How to Run the Project
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/TanishkBhatt/Market-Management-System.git
+2. Create a Python Virtual Environment:
 
-2. Install required dependencies:
+    ```bash
+   py -m venv .venv
+3. Activate the Virtual Environment:
+
+    ```bash
+    .venv\Scripts\activate.ps1
+    # For Visual Studio Code Windows users
+4. Install required dependencies:
+
     ```bash
     pip install -r requirements.txt
+5. Run the main application:
 
-3. Run the main application:
     ```bash
     python main.py
+6. Open the analysis notebook:
 
-4. Open the analysis notebook:
     ```bash
     jupyter notebook analysis.ipynb
-
 ---
 
 ## Future Improvements
