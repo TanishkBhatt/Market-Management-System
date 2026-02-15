@@ -4,9 +4,9 @@ from src.methods import *
 def main() -> None:
     print('\n---------------------------WELCOME TO THE MARKET MANAGEMENT SYSTEM!---------------------------\n')
 
-    inventory = loadData('../src/inventory.json')   # System Inventory
+    inventory = loadData('src/inventory.json')   # System Inventory
     if not inventory:
-        print("ERROR : INVENTORY NOT FOUND OR INVALID! SHUTTING DOWN THE PROGRAM!\n")
+        print("ERROR : INVENTORY NOT FOUND OR INVALID! SHUTTING DOWN THE PROGRAM!")
         sys.exit(1)
 
     existing_ids = get_existing_customer_ids('DataBase/custumerDB.csv')
