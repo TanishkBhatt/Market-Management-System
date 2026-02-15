@@ -132,7 +132,7 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
 2. Create a Python Virtual Environment:
 
     ```bash
-   py -m venv .venv
+   python -m venv .venv
 3. Activate the Virtual Environment:
 
     ```bash
@@ -145,11 +145,11 @@ The `analysis.ipynb` notebook provides analytical insights using Pandas and Matp
 5. Run the main application:
 
     ```bash
-    python main.py
+    python -m main.main.py
 6. Open the analysis notebook:
 
     ```bash
-    jupyter notebook analysis.ipynb
+    jupyter notebook -m main.analysis.ipynb
 ---
 
 ## Future Improvements
