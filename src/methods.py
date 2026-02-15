@@ -215,18 +215,16 @@ def finalize_and_pay(inventory, custumer_cart, custumer_id, custumer_name, custu
             f"YOU MAY PAY THE BILL AMOUNT NOW!"
             "\n---------------------------------------------------------------------------------------------\n")
 
-    # Demo Payment Scenerio
-    os.makedirs("DataBase/Payment-Bills", exist_ok=True)
 
     # Imporing Data to salesDB.csv
     while True :
         payment = input("IS THE PAYMENT SUCCESSFUL ? (Y/N) : ").upper().strip()
         if payment == "Y":
-            with open('DataBase/custumerDB.csv', 'a', newline='') as file:
+            with open('../DataBase/custumerDB.csv', 'a', newline='') as file:
                     writer = csv.writer(file)
                     writer.writerow([custumer_id, custumer_name, custumer_age, custumer_gender])
 
-            with open('DataBase/salesDB.csv', 'a', newline='') as file:
+            with open('../DataBase/salesDB.csv', 'a', newline='') as file:
                     writer = csv.writer(file)
                     for item, details in custumer_cart.items():
                         writer.writerow([
@@ -252,11 +250,12 @@ def finalize_and_pay(inventory, custumer_cart, custumer_id, custumer_name, custu
     for item, details in custumer_cart.items():
             inventory[item]["STOCKS"] -= details["QUANTITY"]
 
-    with open("src/inventory.json", "w") as f: 
+    with open("../src/inventory.json", "w") as f: 
             json.dump(inventory, f, indent=4)
 
 
-    # Demo Payment Bill Scenerio
+    # Demo Payment Scenerio
+    os.makedirs("../DataBase/Payment-Bills", exist_ok=True)
     cart_details = ""
 
     for item in custumer_cart.items():
@@ -298,7 +297,7 @@ TOTAL AMOUNT PAYABLE               : INR {final_bill:.2f}
 ----------------------------------------------------------------------------------
 """
 
-    with open(f"DataBase/Payment-Bills/BILL-{custumer_id}.txt", "w") as f:
+    with open(f"../DataBase/Payment-Bills/BILL-{custumer_id}.txt", "w") as f:
         f.write(bill_template)
 
     print(f"\nYOUR BILL HAS BEEN GENERATED SUCCESFULLY!\nYOU MAY CHECK AT \"DataBase/Payment-Bills/BILL-{custumer_id}.txt\"")
@@ -318,6 +317,6 @@ TOTAL AMOUNT PAYABLE               : INR {final_bill:.2f}
 
     feedback = input("ENTER YOU FEEDBACK TO US! (OPTIONAL) : ").title().strip()
 
-    with open('DataBase/feedbackDB.csv', 'a', newline='') as file:
+    with open('../DataBase/feedbackDB.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([custumer_id,ratings,feedback])

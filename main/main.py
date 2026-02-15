@@ -4,7 +4,7 @@ from src.methods import *
 def main() -> None:
     print('\n---------------------------WELCOME TO THE MARKET MANAGEMENT SYSTEM!---------------------------\n')
 
-    inventory = loadData('src/inventory.json')   # System Inventory
+    inventory = loadData('../src/inventory.json')   # System Inventory
     if not inventory:
         print("ERROR : INVENTORY NOT FOUND OR INVALID! SHUTTING DOWN THE PROGRAM!\n")
         sys.exit(1)
@@ -37,7 +37,7 @@ def main() -> None:
             case '4': view_my_cart(custumer_cart)
             case '5':
                 if not custumer_cart:
-                    print('THERE IS NOTING IN YOUR CART! FIRST ORDER SOMETHING!')
+                    print('THERE IS NOTHING IN YOUR CART! FIRST ORDER SOMETHING!')
                 else:
                     finalize_and_pay(
                         inventory,
